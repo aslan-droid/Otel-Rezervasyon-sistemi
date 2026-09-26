@@ -1,36 +1,27 @@
-🏨 Otel Rezervasyon Sistemi
+# 🏨 Otel Rezervasyon Sistemi
 
-Visual Studio üzerinde C# (Windows Forms) ile geliştirilmiş, otel odası yönetimi ve müşteri rezervasyon süreçlerini dijitalleştiren masaüstü otomasyon projesi.
+Visual Studio üzerinde C# (Windows Forms) kullanılarak geliştirilmiş, otel odası yönetimi ve müşteri rezervasyon süreçlerini dijitalleştiren masaüstü yazılım projesi.
 
-🚀 Özellikler
+## 📸 Arayüz Görüntüleri
 
-Rezervasyon Oluşturma: Şehir, bölge ve otel seçimine göre filtrelenen odaları listeleme; giriş-çıkış tarihlerini belirleme.
+### Rezervasyon ve Kayıt Ekranı
+![Rezervasyon Ekranı](rezervasyon-ekrani.png)
 
-Fiyatlandırma ve Ödeme: Seçilen odaya göre dinamik fiyatlandırma ve kredi kartı bilgileriyle (simülasyon) ödeme alma işlemi.
+### Müşteri Sorgulama Ekranı
+![Sorgulama Ekranı](sorgulama.png)
 
-Müşteri Sorgulama: TC Kimlik Numarası üzerinden sisteme kayıtlı aktif rezervasyonların detaylarını (tarih, oda, fiyat vb.) saniyeler içinde getirme.
+## 🚀 Özellikler
+* **Müşteri Yönetimi:** Yeni müşteri kaydı oluşturma, TC Kimlik numarası ile geçmiş kayıtları sorgulama.
+* **Oda Seçimi ve Fiyatlandırma:** Boş odaların listelenmesi ve fiyat takibi.
+* **Rezervasyon İşlemleri:** Giriş/Çıkış tarihleri belirleme ve ödeme bilgileri (Kredi Kartı) alma işlemleri.
 
-📸 Ekran Görüntüleri
+## 🛠️ Kullanılan Teknolojiler
+* **Geliştirme Ortamı:** Visual Studio
+* **Dil & Altyapı:** C# (.NET Framework / Windows Forms)
 
-1. Rezervasyon ve Ödeme Ekranı:
+## ⚙️ Kurulum ve Çalıştırma
+Bu projeyi kendi bilgisayarınızda test etmek için:
 
-
-2. Müşteri Kayıt Sorgulama Ekranı:
-
-
-🛠️ Kullanılan Teknolojiler
-
-Geliştirme Ortamı: Visual Studio
-
-Dil: C# (.NET Framework / Windows Forms)
-
-
-⚙️ Kurulum ve Çalıştırma
-
-Bu projeyi kendi bilgisayarınızda test etmek için aşağıdaki adımları izleyebilirsiniz:
-
-Bu depoyu bilgisayarınıza klonlayın.
-
-Klasör içerisindeki HotelRezervasyon.sln dosyasını Visual Studio ile açın.
-
-Projeyi derleyip (Build) çalıştırarak sistemi kullanmaya başlayabilirsiniz.
+1. Repoyu bilgisayarınıza klonlayın.
+2. Klasör içerisindeki `HotelRezervasyon.sln` dosyasını Visual Studio ile açın.
+3. Projeyi derleyip (Build) çalıştırarak sistemi kullanmaya başlayın.
